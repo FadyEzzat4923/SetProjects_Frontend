@@ -78,7 +78,7 @@ export default function NavBar() {
             </NavBarLink>
           ))}
       </ul>
-      <div className="auth absolute bottom-16 md:bottom-0 lg:bottom-0 -translate-y-1/2 left-3 flex gap-6">
+      <div className="auth absolute bottom-16 lg:bottom-0 -translate-y-1/2 left-3 flex gap-6">
         {!isAuth && (
           <>
             <NavLink
