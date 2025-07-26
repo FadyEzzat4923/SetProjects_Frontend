@@ -12,7 +12,7 @@ body {
   margin: 0;
 }
 
-.nav {
+.nav,.auth {
   background-color: var(--main-color);
 }
 

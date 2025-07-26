@@ -20,7 +20,7 @@ export default function Task({ task }) {
   }
 
   return (
-    <li key={task._id} className="flex justify-between my-4">
+    <li key={task._id} className="flex justify-between my-4 hover:bg-stone-200 p-1 rounded-md">
       <span>{task.title}</span>
       <button
         disabled={isPending}
