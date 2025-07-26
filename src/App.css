@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --main-color: rgb(28 25 23);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  background-color: var(--main-color);
+}
+
+.nav .logo {
+  background-color: var(--main-color);
+}
